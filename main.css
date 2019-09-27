@@ -1,0 +1,252 @@
+.dark-blue-fg {
+	color: #1d4688;
+}
+
+.light-blue-fg {
+	color: #1389c9;
+}
+
+.dark-blue-bg {
+	background-color: #1d4688;
+}
+
+.light-blue-bg {
+	background-color: #1389c9;
+}
+
+#header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+#header p {
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+
+#header .right {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+#header .right div {
+	margin-left: 10px;
+}
+
+#header .social {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#header .logo:nth-child(1) {
+	border-radius: 20px 0 20px 20px;
+	margin-right: 5px;
+}
+
+#header .logo:nth-child(2) {
+	border-radius: 0 20px 20px 20px;
+}
+
+#header .right .logo {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: start;
+	justify-content: start;
+	padding: 8px;
+}
+
+#header .contact {
+	font-size: 0.8em !important;
+}
+
+#header .logo img{
+	height: 15px;
+	width: 15px;
+	margin:0;
+	padding:0;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.navbar-nav a {
+	position: relative;
+	height:100%;
+}
+
+.navbar-nav a:hover{
+	color:red;
+}
+
+.navbar-nav a:hover::after {
+	content: "";
+	position: absolute;
+	bottom: -13px;
+	left:0;
+	height: 10px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: white;
+	z-index:2000;
+}
+
+.navbar-toggler-icon {
+	color: white !important;	
+}
+
+#box1 {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 3em;
+}
+
+#box1 h1 {
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#box1 p {
+	font-size: 0.8em;
+}
+
+#box1 a {
+	background-color: #1d4688;
+	padding: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border-radius: 20px 0 20px 20px
+}
+
+#box1-img {
+	margin:0;
+	padding:0;
+}
+
+#box1-img img {
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#box2 {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	color: white;
+	padding-top: 30px;
+}
+
+#box2 h3 {
+	font-weight: bold;
+}
+
+#box2 p {
+	font-size: 0.8em;
+	padding: 1em 3em;
+}
+
+#box2 h6 {
+	font-weight: bold;
+	text-align: right;
+}
+
+#box3 {
+	margin: 3em;
+}
+
+#box3 h3 {
+	font-weight: bold;
+}
+
+#box3 p {
+	font-size: 0.8em;
+	max-width: 60%;
+}
+
+#box4 .my-card {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column nowrap;
+	padding: 2em;
+	height: 100%;	
+	border-radius: 10% 0 10% 10%;
+}
+
+#box4 [class*="col-"] {
+	padding-bottom: 2em;
+}
+
+.my-card img {
+	height: auto;
+	max-width: 100%;
+	margin: 2em 0;
+}
+
+#box4 * {
+	color: white;
+}
+
+#box4 .my-card a{
+	position:relative;
+}
+
+#box4 .my-card a:hover{
+    text-decoration: none;
+}
+
+#box4 .my-card a:hover::after{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left:0;
+	height: 5px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: white;
+	z-index:2000;
+}
+
+#card1 {
+	background-color: #1389c9;
+}
+
+#card2 {
+	background-color: #1d4688;
+}
+
+#card3 {
+	background-color: #3f403b;
+}
+
+a:visited{
+ text-decoration: none;
+}
+
+a:active{
+ text-decoration: none;
+}
+
+a:hover{
+ text-decoration: none;
+}
+
+a:link{
+	 text-decoration: none;
+}
+
